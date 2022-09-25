@@ -1,0 +1,46 @@
+body {
+    font-size: medium;
+    text-align: center;
+}
+
+/***** Text *****/
+h1 {
+    text-align: center;
+}
+.image {
+    width: 200px;
+}
+.text {
+    text-align: center;
+    font-size: large;
+}
+
+/***** Fields *****/
+.parameters {
+    font-style: italic;
+}
+.fields {
+    margin-top: 15px;
+}
+.param_field {
+    width: 70px;
+
+}
+#button_evaluate {
+    margin-top: 20px;
+    font-size: medium;
+}
+
+/***** Mouseover *****/
+/* .highlighted {
+    color: red;
+} */
+
+/***** Answer *****/
+#answer {
+    margin-top: 20px;
+}
+
+#answer > span {
+    font-style: italic;
+}

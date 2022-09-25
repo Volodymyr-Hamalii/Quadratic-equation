@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">.
+    <SCRIPT SRC='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></SCRIPT>
+    <!-- <SCRIPT>MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}})</SCRIPT> -->
+    <link rel="stylesheet" href="/Quadratic_equation/quadra-styles.css">
+    <title>Quadratic equation</title>
+</head>
+<body>
+    <h1>How to solve quadratic equation?</h1>
+    <div class="text">For the equation of the form like <span>$$ax^2+bx+c=0$$</span> please, enter your initial data here:</div>
+<div class="fields">
+    <label for="a"><span class="parameters">a</span></label>
+    <input type="number" id="a" name="a" class="param_field">
+
+    <label for="b"><span class="parameters">b</span></label>
+    <input type="number" id="b" name="b" class="param_field">
+
+    <label for="c"><span class="parameters">c</span></label>
+    <input type="number" id="c" name="c" class="param_field">
+</div>
+    <button id="button_evaluate">Calculate</button>
+<div id="answer" class="text"></div>
+
+<script src="/Quadratic_equation/Quadratic_equation.js"></script>
+</body>
+</html>
